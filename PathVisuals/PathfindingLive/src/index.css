@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node-text {
+  text-align: center;
+  line-height: 8px;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.node-end {
+  background-color: red;
+}
+
+.node-wall {
+  background-color: black;
+}
+
+.node-visited {
+  background-color: blue;
+}
+
+.node-path {
+  background-color: yellow;
+}
+
+.node-empty {
+  background-color: #ccc;
+}

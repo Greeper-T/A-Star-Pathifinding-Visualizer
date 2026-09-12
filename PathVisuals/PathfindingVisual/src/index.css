@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node-text {
+  text-align: center;
+  line-height: 8px;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.node-end {
+  background-color: red;
+}
+
+.node-wall {
+  background-color: black;
+}
+
+.node-visited {
+  outline: 4px solid blue;
+}
+
+.node-path {
+  outline: 4px solid yellow;
+}
+
+.node-empty {
+  background-color: #ccc;
+}
+
+.node-water {
+  background-color: #7ec8ff;
+}
+
+.node-grass {
+  background-color: #90ee90;
+}
+
+.node-popup {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+
+  background: white;
+  /* border: 2px solid black; */
+
+  padding: 16px;
+  width: 250px;
+
+  z-index: 1000;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
